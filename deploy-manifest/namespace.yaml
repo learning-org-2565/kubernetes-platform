@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: sock-shop
+  labels:
+    env: dev
+    app: sock-shop
+  annotations:
+    owner: arun-ponugoti
+    purpose: soc-shop-developement
+    version: "1.0"
